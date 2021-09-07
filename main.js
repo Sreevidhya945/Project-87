@@ -17,7 +17,7 @@ function new_image(get_image)
 		block_image_object.scaleToWidth(block_image_height);
 		block_image_object.set({
 		top:block_y,
-        Left:block_x
+        left:block_x
 		});
 		canvas.add(block_image_object);
 	});
@@ -32,12 +32,13 @@ console.log(keyPressed);
 
 	if(keyPressed == '82') 
 	{
+		block_x = 200;
 		new_image('rr1.png');
         console.log("r");
 	}
 	if(keyPressed == '71')
 	{
-		block_x = 200;
+		block_x = 250;
 		new_image('gr.png');
         console.log("g");
 		// upload green ranger
