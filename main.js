@@ -32,13 +32,13 @@ console.log(keyPressed);
 
 	if(keyPressed == '82') 
 	{
-		block_x = 200;
+		
 		new_image('rr1.png');
         console.log("r");
 	}
 	if(keyPressed == '71')
 	{
-		block_x = 250;
+		block_x = 200;
 		new_image('gr.png');
         console.log("g");
 		// upload green ranger
